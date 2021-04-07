@@ -41,6 +41,7 @@ git submodule update --init --recursive
 ```
 ./vcpkg install glm::x64-windows
 ./vcpkg intsall imgui:x64-windows
+./vcpkg install nlohmann-json:x64-windows
 ```
 
 以上指令你得在vcpkg的安装目录调用。
