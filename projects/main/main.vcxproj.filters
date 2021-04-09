@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="runtime\input\input_system.cpp">
+      <Filter>runtime\input</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\reboot\reboot_systems.cpp">
+      <Filter>runtime\reboot</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\runtime_service.cpp">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\render\render_device.cpp">
+      <Filter>runtime\render</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\render\render_pipeline.cpp">
+      <Filter>runtime\render</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\render\render_systems.cpp">
+      <Filter>runtime\render</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\resources\resource_system.cpp">
+      <Filter>runtime\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\update\update_systems.cpp">
+      <Filter>runtime\update</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\windows\main_window.cpp">
+      <Filter>runtime\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\windows\window_systems.cpp">
+      <Filter>runtime\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\runtime_process.cpp">
+      <Filter>runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="extensions\imgui\imgui_impl_win32.cpp">
+      <Filter>extensions\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="extensions\json\json.cpp">
+      <Filter>extensions\json</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\reboot_systems\clear_reboot_system.cpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\reboot_systems\imgui_reboot_system.cpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\render_systems\clear_render_system.cpp">
+      <Filter>systems\render_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\render_systems\imgui_render_system.cpp">
+      <Filter>systems\render_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\update_systems\imgui_update_system.cpp">
+      <Filter>systems\update_systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="extensions">
+      <UniqueIdentifier>{5885ab75-5898-41e6-b034-ca386b3ddc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{6a4bb35e-eee5-47ba-980f-c7e919ce9edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{0bd57c36-12ad-4942-aa41-46d32a8eb739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{6c9fd514-9654-441c-a003-e24a333ea201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\input">
+      <UniqueIdentifier>{63f8e13f-8a0e-4be4-960f-add57ae6e2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\windows">
+      <UniqueIdentifier>{4bb5f6b5-5db4-4cde-b98d-b2a2a32b8d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\update">
+      <UniqueIdentifier>{29548926-9a8c-4c36-8288-c84bb12ee16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\resources">
+      <UniqueIdentifier>{d0bb4c94-005b-4d35-8317-7509137becbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\reboot">
+      <UniqueIdentifier>{117319ec-8a6d-4c4e-8cdc-42b6e17c2995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\render">
+      <UniqueIdentifier>{54256942-946e-4b06-9f21-ff7cfd4685f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems">
+      <UniqueIdentifier>{473435d0-8a62-4cce-932b-b555b44a7fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\imgui">
+      <UniqueIdentifier>{85aede6a-8617-4cb1-b5de-28ffd0803319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\json">
+      <UniqueIdentifier>{be6991e8-2353-438b-a0d9-0e01230e10af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\components">
+      <UniqueIdentifier>{5bc3bf2d-76c7-4384-bff6-b75674ff64b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\render_systems">
+      <UniqueIdentifier>{dfd0af32-8317-4d67-97d4-bb549e15f2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\reboot_systems">
+      <UniqueIdentifier>{48d85ba6-c884-4652-bf22-325f91f29106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\update_systems">
+      <UniqueIdentifier>{995497d4-d2a6-4a52-b956-adf7b1f35590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\configs">
+      <UniqueIdentifier>{cb6baddf-d5b6-4be3-8bf0-1fd5ba97bfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\fonts">
+      <UniqueIdentifier>{ea206f44-91c8-4784-b33b-0f0b1e65b61b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.hpp" />
+    <ClInclude Include="interfaces\noncopyable.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\input\input_keycode.hpp">
+      <Filter>runtime\input</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\input\input_system.hpp">
+      <Filter>runtime\input</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\reboot\reboot_systems.hpp">
+      <Filter>runtime\reboot</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\system.hpp">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\runtime_frame.hpp">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\runtime_service.hpp">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\render\render_device.hpp">
+      <Filter>runtime\render</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\render\render_pipeline.hpp">
+      <Filter>runtime\render</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\render\render_systems.hpp">
+      <Filter>runtime\render</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\resources\resource_system.hpp">
+      <Filter>runtime\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\update\update_systems.hpp">
+      <Filter>runtime\update</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\windows\main_window.hpp">
+      <Filter>runtime\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\windows\window_systems.hpp">
+      <Filter>runtime\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\runtime_process.hpp">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\imgui\imgui.hpp">
+      <Filter>extensions\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\imgui\imgui_impl_win32.hpp">
+      <Filter>extensions\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\json\json.hpp">
+      <Filter>extensions\json</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\framebuffer.hpp">
+      <Filter>systems\components</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\reboot_systems\clear_reboot_system.hpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\reboot_systems\imgui_reboot_system.hpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\render_systems\clear_render_system.hpp">
+      <Filter>systems\render_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\render_systems\imgui_render_system.hpp">
+      <Filter>systems\render_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\update_systems\imgui_update_system.hpp">
+      <Filter>systems\update_systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="resources\fonts\CascadiaCode.ttf">
+      <Filter>resources\fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="resources\configs\default_config.json">
+      <Filter>resources\configs</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="resources\property.json">
+      <Filter>resources</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
