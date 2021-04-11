@@ -1,0 +1,3 @@
+[submodule "libraries/directx12-wrapper"]
+	path = libraries/directx12-wrapper
+	url = https://github.com/LinkClinton/directx12-wrapper
