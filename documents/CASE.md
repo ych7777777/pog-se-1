@@ -11,6 +11,12 @@ Computer Aided Software Engineering调研页面。
 
 ## carbonium14
 
+- ERWin：CA公司出品的拳头产品，强大的老牌数据库建模工具，它有一个兄弟是BPWin。ERWin界面相当简洁漂亮，也是采用ER模型，如果你是开发中小型数据库，极力推荐ERWin，它的Diagram给人的感觉十分清晰。在一个实体中，不同的属性类型采用可定制的图标显示，实体与实体的关系也一目了然。当然ERWin提供的功能如PowerDesian一样强大(不支持UML)。ERWin不适合非常大的数据库的设计，因为它对Diagram欠缺更多层次的组织，而且它对内存要求较高，使用到后期容易出现图标不能显示的情况，一如windows内存紧缺的表现。
+-Case Studio：性价比最高
+-ER/Studio：很不错的数据库建模工具新势力，非常不错。结合Repository，可进行VSS式的版本控制。erwin能做到的它都能做到。
+-DeZign for Databases：如果你是软件工程师或是软件产品经理等常常需要规划系统的话，势必会需要规划数据库的Table Schema。这套软件能够辅助你的规划，将各个Table之间Key的关连性表达出来，也提供有资料库栏位异动时的版本控制纪录与统计报表等功能。
+-PowerDesign：Sybase推出的主打数据库设计工具。PowerDesign致力于采用基于 Entiry-Relation的数据模型，分别从概念数据模型(Conceptual Data Model)和物理数据模型(Physical Data Model)两个层次对数据库进行设计。概念数据模型描述的是独立于数据库管理系统(DBMS)的实体定义和实体关系定义。物理数据模型是在概念数据模型的基础上针对目标数据库管理系统的具体化。Sybase数据库在国内知名度可能不及Oracle，但是Sybase的数据库前端开发工具PowerBuilder却是无可匹敌，再加上PowerDesign的确有过人之处，因而它在国内得到相当广泛的使用。PowerDesign功能强大，使用非常方便。首先它提供了概念模型和物理模型的分组，呈现在使使用区左边的是树状的概念模型和物理模型导航，你可以建立多个概念模型和物理模型，并且以Package的形式任意组织;它几乎能够产生到所有常用数据库管理系统的SQL脚本，当然你完全可以不经过SQL脚本直接在DBMS中生成数据库;它提供增量的数据库开发功发功能，支持局部更新，你可以在概念模型，物理模型，实际数据库三者间完成设计的同步。还有逆向工程，再工程支持，目前还支持UML建模。
+
 ## FoxMakarov
 
 ## Polo-H
