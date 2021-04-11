@@ -1,0 +1,11 @@
+{
+    "systems": {
+        "ImGuiRenderSystem": {
+            "font_size": 15,
+            "priority": 3
+        },
+        "ImGuiUpdateSystem": {
+            "priority": 3
+        }
+    }
+}
