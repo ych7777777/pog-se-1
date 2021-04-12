@@ -18,6 +18,9 @@ Computer Aided Software Engineering调研页面。
 -PowerDesign：Sybase推出的主打数据库设计工具。PowerDesign致力于采用基于 Entiry-Relation的数据模型，分别从概念数据模型(Conceptual Data Model)和物理数据模型(Physical Data Model)两个层次对数据库进行设计。概念数据模型描述的是独立于数据库管理系统(DBMS)的实体定义和实体关系定义。物理数据模型是在概念数据模型的基础上针对目标数据库管理系统的具体化。Sybase数据库在国内知名度可能不及Oracle，但是Sybase的数据库前端开发工具PowerBuilder却是无可匹敌，再加上PowerDesign的确有过人之处，因而它在国内得到相当广泛的使用。PowerDesign功能强大，使用非常方便。首先它提供了概念模型和物理模型的分组，呈现在使使用区左边的是树状的概念模型和物理模型导航，你可以建立多个概念模型和物理模型，并且以Package的形式任意组织;它几乎能够产生到所有常用数据库管理系统的SQL脚本，当然你完全可以不经过SQL脚本直接在DBMS中生成数据库;它提供增量的数据库开发功发功能，支持局部更新，你可以在概念模型，物理模型，实际数据库三者间完成设计的同步。还有逆向工程，再工程支持，目前还支持UML建模。
 
 ## FoxMakarov
+- git: Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
+- ClearCase具体的说是做配置管理的工具，只是SCM管理工具其中的一种。是RATIONAL公司开发的配置管理工具，类似于VSS，CVS的作用，但是功能比VSS，CVS强大的多，而且可以与WINDOWS资源管理器集成使用，并且还可以与很多开发工具集成在一起使用。但是对配置管理员的要求比较高。
+- Poseidon 系统是一个日志搜索平台，可以在数百万亿条、数百PB大小的日志数据中快速分析和检索特定字符串。
 
 ## Polo-H
 
