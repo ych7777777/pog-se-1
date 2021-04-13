@@ -200,6 +200,7 @@
     <ClInclude Include="extensions\imgui\imgui.hpp" />
     <ClInclude Include="extensions\imgui\imgui_impl_win32.hpp" />
     <ClInclude Include="extensions\json\json.hpp" />
+    <ClInclude Include="extensions\spdlog\spdlog.hpp" />
     <ClInclude Include="interfaces\noncopyable.hpp" />
     <ClInclude Include="runtime\input\input_keycode.hpp" />
     <ClInclude Include="runtime\input\input_system.hpp" />

@@ -115,6 +115,9 @@
     <Filter Include="resources\fonts">
       <UniqueIdentifier>{ea206f44-91c8-4784-b33b-0f0b1e65b61b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="extensions\spdlog">
+      <UniqueIdentifier>{18eb7d6b-941d-4a1a-a06f-2a5809fd892c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.hpp" />
@@ -189,6 +192,9 @@
     </ClInclude>
     <ClInclude Include="systems\update_systems\imgui_update_system.hpp">
       <Filter>systems\update_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\spdlog\spdlog.hpp">
+      <Filter>extensions\spdlog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,7 @@
 #pragma once
 
+#include "extensions/spdlog/spdlog.hpp"
+
 #include <unordered_map>
 
 namespace framework {
