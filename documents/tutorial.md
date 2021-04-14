@@ -39,10 +39,10 @@ git submodule update --init --recursive
 目前我们这个项目需要你们自己安装的第三方库:
 
 ```
-./vcpkg install glm::x64-windows
-./vcpkg intsall imgui:x64-windows
+./vcpkg install glm:x64-windows
+./vcpkg install imgui:x64-windows
 ./vcpkg install nlohmann-json:x64-windows
-./vcpkg install spdlog
+./vcpkg install spdlog:x64-windows
 ```
 
 以上指令你得在vcpkg的安装目录调用。
