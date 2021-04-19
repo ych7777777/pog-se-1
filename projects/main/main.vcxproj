@@ -186,10 +186,14 @@
     <ClCompile Include="runtime\windows\main_window.cpp" />
     <ClCompile Include="runtime\windows\window_systems.cpp" />
     <ClCompile Include="systems\reboot_systems\clear_reboot_system.cpp" />
+    <ClCompile Include="systems\reboot_systems\config_reboot_system.cpp" />
     <ClCompile Include="systems\reboot_systems\imgui_reboot_system.cpp" />
+    <ClCompile Include="systems\reboot_systems\rectangle_reboot_system.cpp" />
     <ClCompile Include="systems\render_systems\clear_render_system.cpp" />
     <ClCompile Include="systems\render_systems\imgui_render_system.cpp" />
     <ClCompile Include="systems\update_systems\imgui_update_system.cpp" />
+    <ClCompile Include="systems\update_systems\rectangle_update_systems\rectangle_draw_system.cpp" />
+    <ClCompile Include="systems\update_systems\rectangle_update_systems\rectangle_move_system.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\libraries\directx12-wrapper\directx12-wrapper.vcxproj">
@@ -217,11 +221,15 @@
     <ClInclude Include="runtime\windows\window_systems.hpp" />
     <ClInclude Include="systems\components\framebuffer.hpp" />
     <ClInclude Include="systems\reboot_systems\clear_reboot_system.hpp" />
+    <ClInclude Include="systems\reboot_systems\config_reboot_system.hpp" />
     <ClInclude Include="systems\reboot_systems\imgui_reboot_system.hpp" />
+    <ClInclude Include="systems\reboot_systems\rectangle_reboot_system.hpp" />
     <ClInclude Include="systems\render_systems\clear_render_system.hpp" />
     <ClInclude Include="systems\render_systems\imgui_render_system.hpp" />
     <ClInclude Include="systems\system.hpp" />
     <ClInclude Include="systems\update_systems\imgui_update_system.hpp" />
+    <ClInclude Include="systems\update_systems\rectangle_update_systems\rectangle_draw_system.hpp" />
+    <ClInclude Include="systems\update_systems\rectangle_update_systems\rectangle_move_system.hpp" />
     <ClInclude Include="types.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -249,6 +257,15 @@
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)resources/fonts</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)resources/fonts</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)resources/fonts</DestinationFolders>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="resources\configs\simple_config.json">
+      <FileType>Document</FileType>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)resources/configs</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)resources/configs</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)resources/configs</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)resources/configs</DestinationFolders>
     </CopyFileToFolders>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

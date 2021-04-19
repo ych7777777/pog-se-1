@@ -1,5 +1,7 @@
 #include "reboot_systems.hpp"
 
+#include "../../systems/reboot_systems/rectangle_reboot_system.hpp"
+#include "../../systems/reboot_systems/config_reboot_system.hpp"
 #include "../../systems/reboot_systems/clear_reboot_system.hpp"
 #include "../../systems/reboot_systems/imgui_reboot_system.hpp"
 
@@ -31,8 +33,10 @@ namespace framework::runtime::reboot {
 
 framework::runtime::reboot::reboot_systems::reboot_systems()
 {
+	add("ConfigRebootSystem", std::make_shared<systems::config_reboot_system>());
 	add("ClearRebootSystem", std::make_shared<systems::clear_reboot_system>());
 	add("ImGuiRebootSystem", std::make_shared<systems::imgui_reboot_system>());
+	add("RectangleRebootSystem", std::make_shared<systems::rectangle_reboot_system>());
 }
 
 void framework::runtime::reboot::reboot_systems::resolve(const runtime_service& service)

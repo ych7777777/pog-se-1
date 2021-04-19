@@ -9,7 +9,6 @@ framework::runtime::runtime_process::runtime_process() :
 	mRenderDevice(D3D_FEATURE_LEVEL_11_0), mRuntimeService(*this)
 {
 	mResourceSystem.add("property", extensions::json::read_config_from_file("./resources/property.json"));
-	mResourceSystem.add("config", extensions::json::read_config_from_file("./resources/configs/default_config.json"));
 }
 
 void framework::runtime::runtime_process::run_loop()

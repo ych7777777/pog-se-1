@@ -56,6 +56,18 @@
     <ClCompile Include="systems\update_systems\imgui_update_system.cpp">
       <Filter>systems\update_systems</Filter>
     </ClCompile>
+    <ClCompile Include="systems\reboot_systems\config_reboot_system.cpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\update_systems\rectangle_update_systems\rectangle_draw_system.cpp">
+      <Filter>systems\update_systems\rectangle_update_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\update_systems\rectangle_update_systems\rectangle_move_system.cpp">
+      <Filter>systems\update_systems\rectangle_update_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\reboot_systems\rectangle_reboot_system.cpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="extensions">
@@ -117,6 +129,9 @@
     </Filter>
     <Filter Include="extensions\spdlog">
       <UniqueIdentifier>{18eb7d6b-941d-4a1a-a06f-2a5809fd892c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\update_systems\rectangle_update_systems">
+      <UniqueIdentifier>{2a337575-f5c3-4b24-afc0-0e76dec07e37}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +211,18 @@
     <ClInclude Include="extensions\spdlog\spdlog.hpp">
       <Filter>extensions\spdlog</Filter>
     </ClInclude>
+    <ClInclude Include="systems\reboot_systems\config_reboot_system.hpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\update_systems\rectangle_update_systems\rectangle_draw_system.hpp">
+      <Filter>systems\update_systems\rectangle_update_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\update_systems\rectangle_update_systems\rectangle_move_system.hpp">
+      <Filter>systems\update_systems\rectangle_update_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\reboot_systems\rectangle_reboot_system.hpp">
+      <Filter>systems\reboot_systems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="resources\fonts\CascadiaCode.ttf">
@@ -207,5 +234,10 @@
     <CopyFileToFolders Include="resources\property.json">
       <Filter>resources</Filter>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\configs\simple_config.json">
+      <Filter>resources\configs</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -12,11 +12,6 @@ namespace framework::systems {
 		~imgui_update_system() = default;
 
 		void update(const runtime_service& service, const runtime_frame& frame) override;
-	private:
-		uint32 mRenderTargetSizeX = 0;
-		uint32 mRenderTargetSizeY = 0;
-
-		ImTextureID mRenderTargetID = nullptr;
 	};
 	
 }
